@@ -1,0 +1,23 @@
+{
+  "name": "my-awesome-css",
+  "version": "0.0.1",
+  "scripts": {
+    "postcss": "postcss -c config.json"
+  },
+  "devDependencies": {
+    "postcss-cli": "^2.5.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.0",
+    "cssnano": "^3.10.0"
+  },
+  "plagins": {
+    "autoprefixer": {
+      "browserslist": [
+        "> 2%",
+        "last 2 versions",
+        "not ie <=9"
+      ]
+    }
+  }
+}
